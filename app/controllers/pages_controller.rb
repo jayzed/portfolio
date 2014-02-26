@@ -4,4 +4,8 @@ class PagesController < ApplicationController
 
   def frontier
   end
+
+  def secondmarket
+  end
+  
 end
