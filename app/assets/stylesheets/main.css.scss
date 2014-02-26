@@ -1,0 +1,20 @@
+//Web Font
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+//Bootstrap override variables
+$font-family-sans-serif: 'Open Sans', sans-serif;
+
+$navbar-default-bg: #FFFFFF;
+$navbar-default-border: 0;
+$navbar-default-brand-color: #000000;
+
+//Frameworks
+@import "bootstrap";
+@import "font-awesome";
+
+
+hr.space {
+  background: none repeat scroll 0 0 #fff;
+  color: #fff;
+  visibility: hidden;
+}
