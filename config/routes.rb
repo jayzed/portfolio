@@ -8,6 +8,11 @@ Portfolio::Application.routes.draw do
   get "frontier" => "pages#frontier"
   get "secondmarket" => "pages#secondmarket"
   get "portfolio" => "pages#portfolio"
+  get "divvy" => "pages#divvy"
+  get "statusphere" => "pages#statusphere"
+  get "alamode" => "pages#a_la_mode"
+  get "plan-it" => "pages#plan_it"
+  get "scout" => "pages#scout"
 
 
   # Example of regular route:

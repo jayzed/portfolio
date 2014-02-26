@@ -18,5 +18,20 @@ class PagesController < ApplicationController
 
   def portfolio
   end
+
+  def divvy
+  end
+
+  def statusphere
+  end
+
+  def a_la_mode
+  end
+
+  def plan_it
+  end
+
+  def scout
+  end
   
 end
