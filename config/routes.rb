@@ -11,7 +11,7 @@ Portfolio::Application.routes.draw do
   get "divvy" => "pages#divvy"
   get "statusphere" => "pages#statusphere"
   get "alamode" => "pages#a_la_mode"
-  get "plan-it" => "pages#plan_it"
+  get "planit" => "pages#plan_it"
   get "scout" => "pages#scout"
 
 
