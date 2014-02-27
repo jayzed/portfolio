@@ -1,8 +1,9 @@
 <div class="row">
   <div class="col-sm-8 col-sm-offset-2">
     <h1>Statusphere</h1>
-    <hr class="space">
+    <p class="spall">Colorful orbs to display your status in a coffee shop</p>
     
+    <hr class="space">
     <iframe class="video" src="http://player.vimeo.com/video/41453519?title=0&amp;byline=0&amp;portrait=0" frameborder="0"></iframe>
     
     <hr class="space">
@@ -41,10 +42,8 @@
       This process allowed us to narrow down our ideas further.
     </p>
 
-    <hr class="space">
     <%= image_tag "statusphere-speed-dating.png", class: "img-responsive" %>
     <p class="small">Photo Credit: <%= link_to "Joe Medwid", "http://www.joemedwid.com" %></p>
-    <hr class="space">
 
     <h3>Prototyping</h3>
     <p>
@@ -54,13 +53,51 @@
     </p>
     
     <hr class="space">
-    <%= image_tag "statusphere-prototype.jpg", class: "img-responsive" %>
-    <hr class="space">
-  
+    <div id="statusphere-carousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#statusphere-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#statusphere-carousel" data-slide-to="1"></li>
+        <li data-target="#statusphere-carousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <%= image_tag "statusphere-initial-sketch.jpg" %>
+          <div class="carousel-caption">
+            Initial Sketch
+          </div>
+        </div>
+        <div class="item">
+          <%= image_tag "statusphere-prototype.jpg" %>
+          <div class="carousel-caption">
+            Physical Prototype
+          </div>
+        </div>
+
+        <div class="item">
+          <%= image_tag "statusphere-final.jpg" %>
+          <div class="carousel-caption">
+            Final Design
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#statusphere-carousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#statusphere-carousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+
+
     <hr class="space">
     <div class="small">
       <h6>Project Details</h6>
-      <p>Date: Spring - Summer 2012</p>
+      <p>Date: Spring 2012</p>
       <p>Class: Interaction Design Studio</p>
       <p>Team: Rajat Agrawal, Joe Medwid</p>
     </div>
