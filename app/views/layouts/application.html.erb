@@ -20,11 +20,7 @@
   <%= render 'layouts/header' %>
 
   <div class="container">
-    <div class="row">
-      <div class="<%= 'col-sm-8 col-sm-offset-2' if !current_page?(root_path) && !current_page?(about_path) && !current_page?(resume_path) %>">
-        <%= yield %>
-      </div>
-    </div>
+    <%= yield %>
   </div>
 
   <%= render 'layouts/footer' %>
