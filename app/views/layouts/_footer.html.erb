@@ -7,12 +7,14 @@
   </div>
 
   <div class="pull-right">
-  <%= link_to "https://github.com/jayzed", target: "_blank" do %>
-    <span class="fa-stack">
+
+  <%= mail_to "jayzed@gmail.com" do %>
+     <span class="fa-stack">
       <i class="fa fa-circle fa-stack-2x"></i>
-      <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+      <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
     </span>
   <% end %>
+
 
   <%= link_to "http://www.linkedin.com/profile/view?id=143149437" do %> 
     <span class="fa-stack">
@@ -21,13 +23,12 @@
     </span>
   <% end %>
 
-
-  <%= mail_to "jayzed@gmail.com" do %>
+  <%= link_to "https://github.com/jayzed", target: "_blank" do %>
     <span class="fa-stack">
       <i class="fa fa-circle fa-stack-2x"></i>
-      <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+      <i class="fa fa-github fa-stack-1x fa-inverse"></i>
     </span>
   <% end %>
 
-</div>
+  </div>
 </footer>
