@@ -37,6 +37,14 @@ p {
   line-height: 35px;
 }
 
+.navbar-brand {
+  margin-top: 5px;
+  font-size: 30px;
+}
+
+.navbar-right {
+  margin-top: 20px;
+}
 
 .portfolio-item {
   @include make-sm-column(4);

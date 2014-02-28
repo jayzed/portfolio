@@ -9,6 +9,7 @@
         <span class="icon-bar"></span>
       </button>
       <%= link_to "JORDY ZAGDANSKI", root_path, class: "navbar-brand" %>
+      <div class="small">User Experience Designer</div>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -25,7 +26,7 @@
           <%= link_to "About", about_path %>
         </li>
         <li class="<%= active?(resume_path) %>">
-          <%= link_to "Resume", resume_path %>
+          <%= link_to "Resume",  resume_url  %>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
