@@ -16,9 +16,6 @@ class PagesController < ApplicationController
   def secondmarket
   end
 
-  def portfolio
-  end
-
   def divvy
   end
 
