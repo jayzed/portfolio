@@ -8,14 +8,6 @@ class PagesController < ApplicationController
   def about
   end
 
-  def download
-   send_file(
-    "#{Rails.root}/public/resume.pdf",
-    filename: "Jordy Zagdanski.pdf",
-    type: "application/pdf"
-  )
- end
-
   # Project Pages
 
   def frontier
