@@ -12,8 +12,4 @@ Portfolio::Application.routes.draw do
   get "alamode" => "pages#a_la_mode"
   get "planit" => "pages#plan_it"
   get "scout" => "pages#scout"
-
-
-  # Example of regular route:
-  #   get 'products/:id' => 'catalog#view'
 end
