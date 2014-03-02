@@ -4,9 +4,14 @@ module PagesHelper
     "active" if current_page?(path_to_check)
   end
 
-  def github_commits
+  def latest_commit_message
     repo = Github::Repos.new user: 'jayzed', repo: 'portfolio'
-    repo.commits.all.length
+    repo.commits.all.first["commit"]["message"]
+  end
+
+  def latest_commit_date
+    repo = Github::Repos.new user: 'jayzed', repo: 'portfolio'
+    repo.commits.all.first["commit"]["author"]["date"].to_datetime.strftime("%m/%d/%Y")
   end
 
 end
