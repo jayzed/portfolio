@@ -8,27 +8,17 @@
 
   <div class="pull-right">
 
-  <%= mail_to "jayzed@gmail.com" do %>
-     <span class="fa-stack">
-      <i class="fa fa-circle fa-stack-2x"></i>
-      <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-    </span>
-  <% end %>
+    <%= mail_to "jayzed@gmail.com" do %>
+      <%= fa_stacked_icon "envelope inverse", base: "circle" %>
+    <% end %>
 
+    <%= link_to "http://www.linkedin.com/profile/view?id=143149437" do %>
+      <%= fa_stacked_icon "linkedin inverse", base: "circle" %> 
+    <% end %>
 
-  <%= link_to "http://www.linkedin.com/profile/view?id=143149437" do %> 
-    <span class="fa-stack">
-      <i class="fa fa-circle fa-stack-2x"></i>
-      <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-    </span>
-  <% end %>
-
-  <%= link_to "https://github.com/jayzed", target: "_blank" do %>
-    <span class="fa-stack">
-      <i class="fa fa-circle fa-stack-2x"></i>
-      <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-    </span>
-  <% end %>
+    <%= link_to "https://github.com/jayzed", target: "_blank" do %>
+      <%= fa_stacked_icon "github inverse", base: "circle" %> 
+    <% end %>
 
   </div>
 </footer>

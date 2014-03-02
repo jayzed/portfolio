@@ -13,7 +13,13 @@ class PagesController < ApplicationController
   def frontier
   end
 
-  def secondmarket
+  def secondmarket_hub
+  end
+
+  def secondmarket_checkout
+  end
+
+  def secondmarket_homepage
   end
 
   def divvy
