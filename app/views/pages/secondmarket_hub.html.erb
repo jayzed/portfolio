@@ -1,1 +1,80 @@
-<h1>Secondmarket Hub</h1>
+<div class="row">
+  <div class="col-sm-8 col-sm-offset-2">
+    <h1>SecondMarket Hub</h1>
+    <%= link_to "SecondMarket", "https://www.secondmarket.com", class: "small" %>
+    
+    <h2>Background</h2>
+    <p>
+      Along with the <%= link_to "checkout solution", secondmarket_checkout_path %> to help investors sign subscription documents,
+      funds are obligated at least once a quarter to distribute updates and documents. Since the investor information is already in the system,
+      we thought it would be a natural extension to give fund managers a way to communicate to their investors through the platform.
+    </p>
+
+    <h2>My Role</h2>
+    <p>
+      I have been part of the entire evolution of this product, from when we first did product discovery until the most recent version.
+      I was a part of the user research process, the prototyping and the usability testing.
+      The hub is completely responsive and uses the bootstrap framework.
+    </p>
+    
+
+    <h2>The Product</h2>
+    <p>
+      The product we created is a private Hub where investors and managers can log in, with a way for managers to provide updates
+      and upload and distribute documents to investors.
+    </p>
+
+    <hr class="space">
+
+    <div id="hub-carousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#hub-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#hub-carousel" data-slide-to="1"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <%= image_tag "hub-first.jpg", class: "img-responsive" %>
+
+          <div class="carousel-caption">
+            First Drawing
+          </div>
+        </div>
+        <div class="item">
+          <%= image_tag "hub-updates.png", class: "img-responsive" %>
+
+          <div class="carousel-caption">
+            Current Version
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#hub-carousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#hub-carousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+
+    <hr class="space">
+
+
+    <h2>Some of the things I have learned</h2>
+    <ol>
+      <li>
+        <strong>Especially with really sensitive information, screen needs to be very clear what information is being shared</strong>
+        <p>TEXT</p>
+      </li>
+      <li>
+        <strong>Second Thing</strong>
+        <p>TEXT</p>
+      </li>
+    </ol>    
+
+
+  </div>
+</div>

@@ -1,1 +1,113 @@
-<h1>Checkout</h1>
+<div class="row">
+  <div class="col-sm-8 col-sm-offset-2">
+    <h1>SecondMarket Checkout</h1>
+    <%= link_to "SecondMarket", "https://www.secondmarket.com", class: "small" %>
+    
+    <h2>Background</h2>
+    <p>
+      Subscription documents are complicated. They are commonly 60-70 pages long but only pieces of it really need to filled out 
+      depending on how you are investing (Ex. as an individual vs as an entity). SecondMarket noticed this problem during the period of
+      Facebook sharing before the IPO where SecondMarket created a fund for accredited investors to invest in. The error rate while filling out
+      the subscription documents was an astonishing <strong>300%</strong> - the document had to go back and forth 3 times on average between SecondMarket
+      and the investor before being correctly completed. This offline process was extremely inefficient, time consuming and costly.
+    </p>
+
+    <h2>My Role</h2>
+    <p>
+      I work on all aspects of the evolution of this product, from working with product managers and business stakeholders to figure out the priorities,
+      talking to customers to uncover their pain points, creating HTML prototypes for user testing purposes and for documentation for 
+      the engineering team. and working closely with the engineers on the implementation.
+    </p>
+
+    <h2>The Product</h2>
+    <p>
+      SecondMarket Checkout is a Turbo-Tax like online workflow for investors to go through to make it easier to invest in private placements. Investors go through 
+      a wizard where they enter all of their necessary information like Address, SSN, and bank account details. This information gets automatically populated into a subscription
+      agreement. In 2013 alone, thousands of orders were created and processed online.
+    </p>
+
+    <hr class="space">
+    <%= image_tag "checkout-screenshot.png", class: "img-responsive" %>
+    <hr class="space">
+
+    <p>
+      This product is complex to design for because there are many different configurations that need to be adjusted for. As one example, whether the person is investing on behalf 
+      of themselves or on behalf of an entity affects what information they have to give us so we can run a background check. 
+    </p>
+    <p>
+      It is also complicated because there are many different views for different stakeholders:
+    </p>
+
+    <ul>
+      <li>Investor view to go through the investment flow and sign subscription documents</li>
+      <li>Internal view for Account Management team to manage orders going through the system</li>
+      <li>"Observer View" for fund administrators to see how their investors are faring</li>
+    </ul>
+
+    <p> 
+      All of these different views need to be considered when adding a new feature
+      to make sure the information remains consistent and also so that sensitive 
+      information like Social Security Numbers are not revealed to a party who should not have access to it.
+    </p>
+
+
+    <h2>Some of the things I have learned</h2>
+    <ol>
+      <li>
+        <strong>Focus on goals and success metrics</strong>
+        <p>TEXT TEXT</p>
+      </li>
+
+      <li>
+        <strong>Need to consider both the details and the whole picture when working on a product</strong>
+        <p>
+          Even when adjusting something as small as a label, each piece of the flow needs to be thought about in the overall context.
+          You need to ask yourself how does the user get to this screen? What do they think they are going to do here? What have they already seen? What is the next step?
+        </p>
+      </li>
+
+      <li>
+        <strong>Need to think about both first time users and repeat users</strong>
+        <p>
+          For this product we have many people who invested multiple times. Once all of their information is in the system we tried to make it as easy as possible to 
+          invest a second time without having to input any additional information. One investor who invested 10 times on the platform told us that after the first time
+          it took him only 5 minutes to go through the whole process, including the document signing.
+        </p>
+      </li>
+
+      <li>
+        <strong>Need to understand both user needs and business processes</strong>
+        <p>
+          While our main flow was focused on investors, our product would be unsuccessful if our Account management team struggled to manage the orders. We have spent
+          a lot of time also optimizing the flow internally so we could be more efficient. At first we could only run a couple deals at a time but a few months later
+          we were running almost 20 deals at once which represents hundreds of orders.
+        </p>
+      </li>
+
+      <li>
+        <strong>Words Matter</strong>
+        <p>
+          Especially whene investors are providing us very personal infomation online like SSNs, having good copy to let investors know what we needed the information for
+          really helped breed trust.
+        </p>
+      </li>
+
+      <li>
+        <strong>Support Tickets = Free Feedback</strong>
+        <p>
+          Support tickets are extremely valuable pieces of data. If someone is taking the time to tell you there is a problem or they don't understand anything,
+          it's probably a good indication where improvements can be made.
+        </p>
+      </li>
+
+      <li>
+        <strong>There are always tradeoffs when building products</strong>
+        <p>
+          Even with good collaboration with engineers, unexpected things come up where tradeoffs need to be made. For example, there are frequent tradeoffs between
+          what the feature would ideally be and the time it would take to implement.
+        </p>
+      </li>
+    </ol>
+    
+  </div>
+</div>
