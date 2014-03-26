@@ -11,7 +11,7 @@ Portfolio::Application.routes.draw do
   get "planit" => "pages#plan_it"
   get "scout" => "pages#scout"
 
-  get "secondmarket/hub" => "pages#secondmarket_hub"
-  get "secondmarket/checkout" => "pages#secondmarket_checkout"
-  get "secondmarket/homepage" => "pages#secondmarket_homepage"
+  get "secondmarket_hub" => "pages#secondmarket_hub"
+  get "secondmarket_checkout" => "pages#secondmarket_checkout"
+  get "secondmarket_homepage" => "pages#secondmarket_homepage"
 end
